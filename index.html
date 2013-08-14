@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			var carroJSON = {
+			    tipo:           'hatchback',
+			    marca:          'Toyota',
+			    modelo:         'Yaris',
+			    ano:            '2001',
+			    inscrito:        true,
+			    kilometraje:     125000,
+			    duenos: ['Jorge Rojas'],
+			    motor: {
+			        cilindraje: '1200',
+			        kilometrosGalon: '10',
+			        peso: '100'
+			    }
+			}
+
+			carroJSON.duenos.push("Carlos");
+			carroJSON.duenos.push("Juan");
+			carroJSON.duenos.push("Roberto");
+
+			carroJSON['fechaInscripcion'] = "2010/12/10";
+
+			console.log(carroJSON);
+		</script>
+	</head>
+	<body>
+		<label>Este un test, vea la consola</label>
+	</body>
+</html>
